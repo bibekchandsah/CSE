@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>4th semester</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <!-- https://via.placeholder.com/80x80 -->
+</head>
+
+<body>
+    <!-- <=====nav bar=====> -->
+    <nav class="navbar sticky-top navbar-expand-lg" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://bibek10550.github.io/bibek/">
+                <img src="https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="30"
+                    height="24" class="d-inline-block align-text-top">
+                Bibek
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">4th semester</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://bibek10550.github.io/bibek/">Bibek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://bibek10550.github.io/Homepage/">Homepage</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Admin</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <=====buttons=====> -->
+    <div class="d-grid gap-2 d-md-flex d-md-block my-3 m-2 justify-content-md-center">
+        <button class="filter btn btn-primary acctive" data-filter="Showall" type="button">Show all👓</button>
+        <button class="filter btn btn-primary" data-filter="COA" type="button"
+            title="Computer Organization and Architecture">COA</button>
+        <button class="filter btn btn-primary" data-filter="DBMS" type="button"
+            title="Database Management System">DBMS</button>
+        <button class="filter btn btn-primary" data-filter="DBMS_(Lab)" type="button"
+            title="Database Management System (Lab)">DBMS (Lab)</button>
+        <button class="filter btn btn-primary" data-filter="DS" type="button" title="Discrete Structure">DS</button>
+        <button class="filter btn btn-primary" data-filter="OOPJ" type="button"
+            title="Object Oriented Program (Java)">OOP (J)</button>
+        <button class="filter btn btn-primary" data-filter="OOPJLab" type="button"
+            title="Object Oriented Program-(Java)_(Lab)">OOP-(J)_(Lab)</button>
+        <button class="filter btn btn-primary" data-filter="OS" type="button" title="Operating System">OS</button>
+        <button class="filter btn btn-primary" data-filter="OS_(Lab)" type="button" title="Operating System Lab">OS
+            (Lab)</button>
+        <button class="filter btn btn-primary" data-filter="VT" type="button" title="Vocational Training">VT</button>
+    </div>
+
+    <!-- <=====youtube video=====> -->
+    <div class="videoContainer row row-cols-1 row-cols-md-4 g-4">
+        <div class="col itemBox COA">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLdaj4mrS1BKBKic8N5CcipttgvfHiX_vg">
+                    <img src="https://img.youtube.com/vi/EteKRIzju90/maxresdefault.jpg" class="card-img-top"
+                        alt="Computer Organization and Architecture by Bindu Agarwalla"></a>
+                <div class="card-body">
+                    <a class="videoHeading"
+                        href="https://www.youtube.com/playlist?list=PLdaj4mrS1BKBKic8N5CcipttgvfHiX_vg">
+                        <h5 class="card-title">Computer Organization and Architecture</h5>
+                    </a>
+                    <p class="card-text">Computer Organization and Architecture by <b> Bindu Agarwalla </b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox COA">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLgwJf8NK-2e7XZXcFujMw--IDZ2nnsXNT">
+                    <img src="https://img.youtube.com/vi/xGhAy7k9kcI/maxresdefault.jpg" class="card-img-top"
+                        alt="Computer Organization and Architecture by Engineering Funda"></a>
+                <div class="card-body">
+                    <a class="videoHeading"
+                        href="https://www.youtube.com/playlist?list=PLdaj4mrS1BKBKic8N5CcipttgvfHiX_vg">
+                        <h5 class="card-title">Computer Organization and Architecture</h5>
+                    </a>
+                    <p class="card-text">Computer Organization and Architecture by <b>Engineering Funda</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox COA">
+            <div class="card h-100">
+                <a href="https://youtube.com/playlist?list=PL-JvKqQx2Atfuxo1LR0m9RQramPymoBsj&si=GzYc7qDKXxTlsHT_">
+                    <img src="https://i.ytimg.com/vi/8msCz6Nb6nk/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAi6PvcX4ZzBmMCRmcsr7qgLuocGw"
+                        class="card-img-top" alt="Computer Organization and Architecture by University Academy"></a>
+                <div class="card-body">
+                    <a class="videoHeading"
+                        href="https://youtube.com/playlist?list=PL-JvKqQx2Atfuxo1LR0m9RQramPymoBsj&si=GzYc7qDKXxTlsHT_">
+                        <h5 class="card-title">Computer Organization and Architecture</h5>
+                    </a>
+                    <p class="card-text">Computer Organization and Architecture by <b>University Academy</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox COA">
+            <div class="card h-100">
+                <a href="https://youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX&si=T4zd-RS0OUW0OQgX">
+                    <img src="https://img.youtube.com/vi/L9X7XXfHYdU/maxresdefault.jpg" class="card-img-top"
+                        alt="Computer Organization and Architecture by Gate Smashers"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq53C6oNXGrX&si=T4zd-RS0OUW0OQgX">
+                        <h5 class="card-title">Computer Organization and Architecture</h5>
+                    </a>
+                    <p class="card-text">Computer Organization and Architecture by <b>Gate Smashers</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox COA">
+            <div class="card h-100">
+                <a href="https://youtube.com/playlist?list=PLBlnK6fEyqRgLLlzdgiTUKULKJPYc0A4q&si=iTpWzyURLVHYwrss">
+                    <img src="https://img.youtube.com/vi/Ol8D69VKX2k/maxresdefault.jpg" class="card-img-top"
+                        alt="Computer Organization and Architecture by Neso Academy"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://youtube.com/playlist?list=PLBlnK6fEyqRgLLlzdgiTUKULKJPYc0A4q&si=iTpWzyURLVHYwrss">
+                        <h5 class="card-title">Computer Organization and Architecture</h5>
+                    </a>
+                    <p class="card-text">Computer Organization and Architecture by <b>Neso Academy</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DBMS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y">
+                    <img src="https://img.youtube.com/vi/kBdlM6hNDAE/maxresdefault.jpg" class="card-img-top"
+                        alt="Database Management System by Gate Smashers"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y&si=0dZTyajB2wQisymp">
+                        <h5 class="card-title">Database Management System</h5>
+                    </a>
+                    <p class="card-text">Database Management System by <b>Gate Smashers</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DBMS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV">
+                    <img src="https://img.youtube.com/vi/eTiP-H9GQ30/maxresdefault.jpg" class="card-img-top"
+                        alt="Database Management System by KnowledgeGATE by Sanchit Sir"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLmXKhU9FNesR1rSES7oLdJaNFgmuj0SYV">
+                        <h5 class="card-title">Database Management System</h5>
+                    </a>
+                    <p class="card-text">Database Management System by <b>KnowledgeGATE by Sanchit Sir</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DBMS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ">
+                    <img src="https://img.youtube.com/vi/6Iu45VZGQDk/maxresdefault.jpg" class="card-img-top"
+                        alt="Database Management System by Neso Academy"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRi_CUQ-FXxgzKQ1dwr_ZJWZ">
+                        <h5 class="card-title">Database Management System</h5>
+                    </a>
+                    <p class="card-text">Database Management System by <b>Neso Academy</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DBMS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc">
+                    <img src="https://img.youtube.com/vi/T7AxM7Vqvaw/maxresdefault.jpg" class="card-img-top"
+                        alt="Database Management System by Jenny's Lectures CS IT"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f9aFjoJPOkdlsRc">
+                        <h5 class="card-title">Database Management System</h5>
+                    </a>
+                    <p class="card-text">Database Management System by <b>Jenny's Lectures CS IT</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DBMS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLqcuf9-ILPYAjSxpAssMGrWsTOE5-111e">
+                    <img src="https://img.youtube.com/vi/npJxXd_7edk/maxresdefault.jpg" class="card-img-top"
+                        alt="Database Management System by CS Engineering Gyan"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLqcuf9-ILPYAjSxpAssMGrWsTOE5-111e">
+                        <h5 class="card-title">Database Management System</h5>
+                    </a>
+                    <p class="card-text">Database Management System by <b>CS Engineering Gyan</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DBMS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLrjkTql3jnm-CLxHftqLgkrZbM8fUt0vn">
+                    <img src="https://img.youtube.com/vi/wjfeGxqAQOY/maxresdefault.jpg" class="card-img-top"
+                        alt="Database Management System by Education 4u"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLrjkTql3jnm-CLxHftqLgkrZbM8fUt0vn">
+                        <h5 class="card-title">Database Management System</h5>
+                    </a>
+                    <p class="card-text">Database Management System by <b>Education 4u</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3">
+                    <img src="https://img.youtube.com/vi/p2b2Vb-cYCs/maxresdefault.jpg" class="card-img-top"
+                        alt="Discrete Structure by Neso Academy"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRhqJPDXcvYlLfXPh37L89g3">
+                        <h5 class="card-title">Discrete Structure</h5>
+                    </a>
+                    <p class="card-text">Discrete Structure by <b>Neso Academy</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiH2wwES9vPWsEL6ipTaUSl3">
+                    <img src="https://img.youtube.com/vi/YBb2oYIzXK0/maxresdefault.jpg" class="card-img-top"
+                        alt="Discrete Structure by Gate Smashers"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiH2wwES9vPWsEL6ipTaUSl3">
+                        <h5 class="card-title">Discrete Structure</h5>
+                    </a>
+                    <p class="card-text">Discrete Structure by <b>Gate Smashers</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLU6SqdYcYsfJ27O0dvuMwafS3X8CecqUg">
+                    <img src="https://img.youtube.com/vi/wGLTV8MgLlA/maxresdefault.jpg" class="card-img-top"
+                        alt="Discrete Structure by Dr.Gajendra Purohit"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLU6SqdYcYsfJ27O0dvuMwafS3X8CecqUg">
+                        <h5 class="card-title">Discrete Structure</h5>
+                    </a>
+                    <p class="card-text">Discrete Structure by <b>Dr.Gajendra Purohit</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLz8TdOA7NTzTk-kaYf8NVfMM4ZDNQKDgA">
+                    <img src="https://i.ytimg.com/vi/IzS_ygerGq0/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLDmnqYO7EA91JyF3cG_n0DNUgDKUg" class="card-img-top"
+                        alt="Discrete Structure by asha khilrani"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLz8TdOA7NTzTk-kaYf8NVfMM4ZDNQKDgA">
+                        <h5 class="card-title">Discrete Structure</h5>
+                    </a>
+                    <p class="card-text">Discrete Structure by <b>asha khilrani</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox DS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLtCBuHKmdxOduWhQPbEwLN2ULKMqgQ44m">
+                    <img src="https://img.youtube.com/vi/yn7PquzSUUo/maxresdefault.jpg" class="card-img-top"
+                        alt="Discrete Structure by Fahad Hussain"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLtCBuHKmdxOduWhQPbEwLN2ULKMqgQ44m">
+                        <h5 class="card-title">Discrete Structure</h5>
+                    </a>
+                    <p class="card-text">Discrete Structure by <b>Fahad Hussain</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OOPJ">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRjKA_NuK9mHmlk0dZzuP1P5">
+                    <img src="https://img.youtube.com/vi/VHbSopMyc4M/maxresdefault.jpg" class="card-img-top"
+                        alt="Object Oriented Program (Java) by Neso Academy"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRjKA_NuK9mHmlk0dZzuP1P5">
+                        <h5 class="card-title">Object Oriented Program (Java)</h5>
+                    </a>
+                    <p class="card-text">Object Oriented Program (Java) by <b>Neso Academy</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OOPJ">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk">
+                    <img src="https://img.youtube.com/vi/BSVKUk58K6U/maxresdefault.jpg" class="card-img-top"
+                        alt="Object Oriented Program (Java) by Kunal Kushwaha"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PL9gnSGHSqcno1G3XjUbwzXHL8_EttOuKk">
+                        <h5 class="card-title">Object Oriented Program (Java)</h5>
+                    </a>
+                    <p class="card-text">Object Oriented Program (Java) by <b>Kunal Kushwaha</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OOPJ">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q">
+                    <img src="https://img.youtube.com/vi/ntLJmHOJ0ME/maxresdefault.jpg" class="card-img-top"
+                        alt="Object Oriented Program (Java) by CodeWithHarry"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q">
+                        <h5 class="card-title">Object Oriented Program (Java)</h5>
+                    </a>
+                    <p class="card-text">Object Oriented Program (Java) by <b>CodeWithHarry</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OOPJ">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLO14KY9mobCJV5vbvtCY365z6C53WZPav">
+                    <img src="https://i.ytimg.com/vi/n7iJn6lHWQg/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBC4yKk19eFG9TY_OCEvqlVjWcb6g" class="card-img-top"
+                        alt="Object Oriented Program (Java) by Computer_IT_ICT Engineering Department : LJIET"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLO14KY9mobCJV5vbvtCY365z6C53WZPav">
+                        <h5 class="card-title">Object Oriented Program (Java)</h5>
+                    </a>
+                    <p class="card-text">Object Oriented Program (Java) by <b>Computer_IT_ICT Engineering Department : LJIET</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OOPJ">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLlhM4lkb2sEhf5NlWeYh_gdcN49pHjVP0">
+                    <img src="https://img.youtube.com/vi/7WhnYwoBY24/maxresdefault.jpg" class="card-img-top"
+                        alt="Object Oriented Program (Java) by Smart Programming"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLlhM4lkb2sEhf5NlWeYh_gdcN49pHjVP0">
+                        <h5 class="card-title">Object Oriented Program (Java)</h5>
+                    </a>
+                    <p class="card-text">Object Oriented Program (Java) by <b>Smart Programming</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OOPJ">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLqleLpAMfxGCbdaJ6SoExDfHrTfRDeWeG">
+                    <img src="https://img.youtube.com/vi/AEo4KgwKYoU/maxresdefault.jpg" class="card-img-top"
+                        alt="Object Oriented Program (Java) by Learn Coding"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLqleLpAMfxGCbdaJ6SoExDfHrTfRDeWeG">
+                        <h5 class="card-title">Object Oriented Program (Java)</h5>
+                    </a>
+                    <p class="card-text">Object Oriented Program (Java) by <b>Learn Coding</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLdo5W4Nhv31a5ucW_S1K3-x6ztBRD-PNa">
+                    <img src="https://i.ytimg.com/vi/RozoeWzT7IM/hqdefault.jpg?sqp=-oaymwExCNACELwBSFryq4qpAyMIARUAAIhCGAHwAQH4Af4EgALoAooCDAgAEAEYciBUKDkwDw==&rs=AOn4CLBF1MVn5Xp3KT-Iux6ccalN-8F7zg" class="card-img-top"
+                        alt="Operating System by Jenny's Lectures CS IT"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLdo5W4Nhv31a5ucW_S1K3-x6ztBRD-PNa">
+                        <h5 class="card-title">Operating System</h5>
+                    </a>
+                    <p class="card-text">Operating System by <b>Jenny's Lectures CS IT</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLV8vIYTIdSnZ67NQObdXE0gFjrzPrNKHp">
+                    <img src="https://img.youtube.com/vi/QhRPNO2f0g0/maxresdefault.jpg" class="card-img-top"
+                        alt="Operating System by Easy Engineering Classes"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLV8vIYTIdSnZ67NQObdXE0gFjrzPrNKHp">
+                        <h5 class="card-title">Operating System</h5>
+                    </a>
+                    <p class="card-text">Operating System by <b>Easy Engineering Classes</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLYwpaL_SFmcD0LLrv7CXxSiO2gNJsoxpi">
+                    <img src="https://i.ytimg.com/vi/y5WdaJrGh5U/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBQzJh_rBnPEY6r7p1BNLZJQVadGw" class="card-img-top"
+                        alt="Operating System by 5 Minutes Engineering"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLYwpaL_SFmcD0LLrv7CXxSiO2gNJsoxpi">
+                        <h5 class="card-title">Operating System</h5>
+                    </a>
+                    <p class="card-text">Operating System by <b>5 Minutes Engineering</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLqcuf9-ILPYARwquS3KOD3bDe0NSaD-oK">
+                    <img src="https://img.youtube.com/vi/90wr9MJ9O3E/maxresdefault.jpg" class="card-img-top"
+                        alt="Operating System by CS Engineering Gyan"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLqcuf9-ILPYARwquS3KOD3bDe0NSaD-oK">
+                        <h5 class="card-title">Operating System</h5>
+                    </a>
+                    <p class="card-text">Operating System by <b>CS Engineering Gyan</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p">
+                    <img src="https://img.youtube.com/vi/bkSWJJZNgf8/maxresdefault.jpg" class="card-img-top"
+                        alt="Operating System by Gate Smashers"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p">
+                        <h5 class="card-title">Operating System</h5>
+                    </a>
+                    <p class="card-text">Operating System by <b>Gate Smashers</b></p>
+                </div>
+            </div>
+        </div>
+        <div class="col itemBox OS">
+            <div class="card h-100">
+                <a href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O">
+                    <img src="https://img.youtube.com/vi/vBURTt97EkA/maxresdefault.jpg" class="card-img-top"
+                        alt="Operating System by Neso Academy"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O">
+                        <h5 class="card-title">Operating System</h5>
+                    </a>
+                    <p class="card-text">Operating System by <b>Neso Academy</b></p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="col itemBox DBMS">
+            <div class="card h-100">
+                <a href="">
+                    <img src="" class="card-img-top"
+                        alt="Database Management System by Engineering"></a>
+                <div class="card-body">
+                    <a class="videoHeading" href="">
+                        <h5 class="card-title">Database Management System</h5>
+                    </a>
+                    <p class="card-text">Database Management System by <b>Engineering</b></p>
+                </div>
+            </div>
+        </div> -->
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
