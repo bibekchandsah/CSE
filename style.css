@@ -12,6 +12,10 @@ button.acctive{
     color: #fff;
 }
 
+.btn {
+    max-width: 200px;
+}
+
 .videoContainer{
     margin: 10px;
 }
