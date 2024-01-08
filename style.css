@@ -30,3 +30,18 @@ button.acctive{
     font-weight: 700;
     font-size: larger;
 }
+
+@media (max-width: 767px) {
+    .buttonContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+    }
+
+    .btn {
+        margin-bottom: 10px;
+    }
+}
